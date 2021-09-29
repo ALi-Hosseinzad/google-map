@@ -41,7 +41,7 @@ export default function MapLocation({
     }
   }, [edit]);
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyBhsioteyPMAoBwqTwy4CkAaDS9TPz6rYw",
+    googleMapsApiKey: "",
     libraries,
   });
   const [markers, setMarkers] = useState();
